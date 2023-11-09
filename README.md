@@ -40,12 +40,12 @@ This project encourages collaboration and sharing of code snippets, statistical 
 
 The analysis is illustrated through time series graphs, including:
 - A histogram showing the number of fires occurring at various distances from the assigned city.
-![Plot](Q1.png)
+![Plot](images/Q1.png)
 - A time series graph of total acres burned per year for fires within the specified distance.
-- ![Plot](Q2.png)
+- ![Plot](images/Q2.png)
 - A time series graph displaying the fire smoke estimate for the assigned city alongside the AQI estimate.
-- ![Plot](Q3.png)
-- ![Plot](Q3b.png)
+- ![Plot](images/Q3.png)
+- ![Plot](images/Q3b.png)
 
 ## Conclusion
 
