@@ -47,6 +47,40 @@ The analysis is illustrated through time series graphs, including:
 - ![Plot](images/Q3.png)
 - ![Plot](images/Q4.png)
 
+
+## Directories
+
+### `images`
+
+- Directory for storing images related to the project.
+
+### `intermediate data files`
+
+- Directory for storing intermediate data files generated during the analysis.
+
+## Files
+
+### `AQI_Williston.ipynb`
+
+- Jupyter Notebook containing code for scraping Air Quality Index (AQI) data.
+
+### `LICENSE.md`
+
+- Markdown file containing the project's license information.
+
+### `README.md`
+
+- Markdown file providing an overview and details of the project.
+
+### `Visualizations.ipynb`
+
+- Jupyter Notebook containing code for creating data visualizations.
+
+### `Wildfire_Williston.ipynb`
+
+- Main Jupyter Notebook for the project, including wildfire data analysis and smoke impact estimation.
+
+
 ## Conclusion
 
 This project aims to provide valuable insights into the estimated smoke impacts of wildfires on the assigned city and create a predictive model for future scenarios. The results may inform policy decisions and preparedness for wildfire events in the region.
