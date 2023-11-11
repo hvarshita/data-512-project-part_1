@@ -2,6 +2,8 @@
 
 # Wildfire Smoke Impact Analysis
 
+### Reflections - https://docs.google.com/document/d/1khwk8QEBKxjliUaKhJVzrHH4udkYCilu4aT4P5LfNI4/edit?usp=sharing
+
 ## Introduction
 
 This project aims to analyze the estimated smoke impacts of wildfires on a specific city in the US over the last 60 years. The analysis focuses on the period from 1963 to 2023 and considers fires that occurred within 1250 miles of the assigned city. The primary goal is to create a predictive model for the next 25 years (2024-2049), offering insights into the potential future impacts of wildfires.
