@@ -94,6 +94,7 @@ The analysis is illustrated through time series graphs, including:
 - A time series graph displaying the fire smoke estimate for the assigned city alongside the AQI estimate.
 - ![Plot](images/Q3.png)
 - ![Plot](images/Q4.png)
+- PART 2 plots are added to the images folder. 
 
 
 ## Directories
