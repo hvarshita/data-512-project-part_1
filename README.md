@@ -98,35 +98,27 @@ The analysis is illustrated through time series graphs, including:
 
 ## Directories
 
-### `images`
+.
+├── code
+│   ├── AQI_Williston.ipynb
+│   ├── Economic_Analysis.ipynb
+│   ├── Visualizations.ipynb
+│   └── Wildfire_Williston.ipynb
+├── datasets
+│   ├── Annual unemployment rate (all ages) (2).xlsx
+│   └── Median household income.xlsx
+├── images
+│   └── [contains part 1 and part 2 plots]
+├── intermediate data files
+│   └── [Directory for storing intermediate data files generated during the analysis]
+├── writeups
+│   ├── Analysis and Reflections.pdf : Reflections
+│   ├── DATA 512 FINAL PROJECT.pdf : Final Report
+│   ├── DATA512ProjectPart2.pdf : Extension plan
+│   └── Williston.pptx : Pechakucha presentation
+├── LICENSE.md
+└── README.md
 
-- Directory for storing images related to the project.
-
-### `intermediate data files`
-
-- Directory for storing intermediate data files generated during the analysis.
-
-## Files
-
-### `AQI_Williston.ipynb`
-
-- Jupyter Notebook containing code for scraping Air Quality Index (AQI) data.
-
-### `LICENSE.md`
-
-- Markdown file containing the project's license information.
-
-### `README.md`
-
-- Markdown file providing an overview and details of the project.
-
-### `Visualizations.ipynb`
-
-- Jupyter Notebook containing code for creating data visualizations.
-
-### `Wildfire_Williston.ipynb`
-
-- Main Jupyter Notebook for the project, including wildfire data analysis and smoke impact estimation.
 
 
 ## Conclusion
