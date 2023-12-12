@@ -98,26 +98,31 @@ The analysis is illustrated through time series graphs, including:
 
 ## Directories
 
-.
-├── code
-│   ├── AQI_Williston.ipynb
-│   ├── Economic_Analysis.ipynb
-│   ├── Visualizations.ipynb
-│   └── Wildfire_Williston.ipynb
-├── datasets
-│   ├── Annual unemployment rate (all ages) (2).xlsx
-│   └── Median household income.xlsx
-├── images
-│   └── [contains part 1 and part 2 plots]
-├── intermediate data files
-│   └── [Directory for storing intermediate data files generated during the analysis]
-├── writeups
-│   ├── Analysis and Reflections.pdf : Reflections
-│   ├── DATA 512 FINAL PROJECT.pdf : Final Report
-│   ├── DATA512ProjectPart2.pdf : Extension plan
-│   └── Williston.pptx : Pechakucha presentation
-├── LICENSE.md
-└── README.md
+- code
+  - AQI_Williston.ipynb
+  - Economic_Analysis.ipynb
+  - Visualizations.ipynb
+  - Wildfire_Williston.ipynb
+
+- datasets
+  - Annual unemployment rate (all ages) (2).xlsx
+  - Median household income.xlsx
+
+- images
+  - [contains part 1 and part 2 plots]
+
+- intermediate data files
+  - [Directory for storing intermediate data files generated during the analysis]
+
+- writeups
+  - Analysis and Reflections.pdf : Reflections
+  - DATA 512 FINAL PROJECT.pdf : Final Report
+  - DATA512ProjectPart2.pdf : Extension plan
+  - Williston.pptx : Pechakucha presentation
+
+- LICENSE.md
+- README.md
+
 
 
 
