@@ -32,7 +32,38 @@ The estimated smoke impact is compared to the Air Quality Index (AQI) data obtai
 
 ### 3. Predictive Model
 
-A predictive model is developed to estimate smoke impacts for the next 25 years (2024-2049). The model should incorporate the historical fire and smoke data to make informed predictions while considering uncertainties.
+A predictive model is developed to estimate smoke impacts for the next 25 years (2024-2049). The model incorporates the historical fire and smoke data to make informed predictions while considering uncertainties.
+
+## PART 2: EXTENSION 
+
+This extension plan seeks to delve deeper into the analysis of wildfire impact on economic factors. The primary focus involves a comprehensive investigation using diverse datasets to explore the correlation between wildfires, air quality, and various economic indicators - unemployment rate and median household income in Williston, North Dakota. Leveraging advanced statistical methods and visualization techniques, the plan aims to provide more nuanced insights into the relationship between these variables. It includes the development of forecasting models to predict future trends in economic indicators affected by wildfire occurrences. The extension plan further entails creating informative visualizations, including correlation matrices and trend forecasts, to communicate these complex relationships effectively. 
+
+### Data Sources
+
+#### Wildfires Dataset
+- **Source:** [Wildfire Database](link-to-source)
+- **Description:** Records the occurrences of wildfires near Williston, North Dakota.
+- **Format:** CSV
+- **Columns:** Year, Distance from Williston, Number of Fires
+
+#### Economic Indicators Dataset
+- **Source:** [North Dakota Economic Data](link-to-source)
+- **Description:** Contains economic indicators such as unemployment rates, household income, and industry-specific data.
+- **Format:** Excel
+- **Columns:** TimeFrame, Unemployment Rate, Median Household Income
+
+#### Air Quality Dataset
+- **Source:** [Air Quality Index Database](link-to-source)
+- **Description:** Provides Air Quality Index (AQI) measurements, including smoke estimates.
+- **Format:** CSV
+- **Columns:** Date, AQI, Smoke Estimate
+
+### Data Types
+
+- **Wildfires Dataset:** Year (int), Distance from Williston (float), Number of Fires (int)
+- **Economic Indicators Dataset:** TimeFrame (date), Unemployment Rate (float), Median Household Income (int)
+- **Air Quality Dataset:** Date (date), AQI (float), Smoke Estimate (float)
+
 
 ## Code Snippets and Attribution
 
