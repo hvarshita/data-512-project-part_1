@@ -1,4 +1,6 @@
-# DATA 512 PROJECT PART 1: COMMON ANALYSIS
+# DATA 512 PROJECT
+
+## PART 1: COMMON ANALYSIS
 
 # Wildfire Smoke Impact Analysis
 
