@@ -38,31 +38,46 @@ A predictive model is developed to estimate smoke impacts for the next 25 years 
 
 This extension plan seeks to delve deeper into the analysis of wildfire impact on economic factors. The primary focus involves a comprehensive investigation using diverse datasets to explore the correlation between wildfires, air quality, and various economic indicators - unemployment rate and median household income in Williston, North Dakota. Leveraging advanced statistical methods and visualization techniques, the plan aims to provide more nuanced insights into the relationship between these variables. It includes the development of forecasting models to predict future trends in economic indicators affected by wildfire occurrences. The extension plan further entails creating informative visualizations, including correlation matrices and trend forecasts, to communicate these complex relationships effectively. 
 
+
 ### Data Sources
 
-#### Wildfires Dataset
-- **Source:** [Wildfire Database](link-to-source)
-- **Description:** Records the occurrences of wildfires near Williston, North Dakota.
-- **Format:** CSV
-- **Columns:** Year, Distance from Williston, Number of Fires
+#### Wildland Fire Datasets for the United States and Territories
+- **Source:** US Geological Survey
+- **Format:** ArcGIS and GeoJSON
 
-#### Economic Indicators Dataset
-- **Source:** [North Dakota Economic Data](link-to-source)
-- **Description:** Contains economic indicators such as unemployment rates, household income, and industry-specific data.
-- **Format:** Excel
-- **Columns:** TimeFrame, Unemployment Rate, Median Household Income
+#### Annual Unemployment Rate (all ages) - North Dakota Dataset
+- **Source:** Local/National Statistical Agencies
+- **Timeframe:** 2000 to 2022
+- **Type:** Numerical (Unemployment Rate)
+- **Format:** Tabular (CSV/Excel)
 
-#### Air Quality Dataset
-- **Source:** [Air Quality Index Database](link-to-source)
-- **Description:** Provides Air Quality Index (AQI) measurements, including smoke estimates.
-- **Format:** CSV
-- **Columns:** Date, AQI, Smoke Estimate
+#### Median Household Income - North Dakota Dataset
+- **Source:** Local/National Statistical Agencies
+- **Timeframe:** Varied years across locations in North Dakota
+- **Type:** Numerical (Income)
+- **Format:** Tabular (CSV/Excel)
 
-### Data Types
+### Data Types of Columns
 
-- **Wildfires Dataset:** Year (int), Distance from Williston (float), Number of Fires (int)
-- **Economic Indicators Dataset:** TimeFrame (date), Unemployment Rate (float), Median Household Income (int)
-- **Air Quality Dataset:** Date (date), AQI (float), Smoke Estimate (float)
+#### Annual Unemployment Rate (all ages) - North Dakota Dataset
+
+| Column Name | Description                | Data Type |
+|-------------|----------------------------|-----------|
+| LocationType| Type of geographical location (e.g., State, County) | Text/String |
+| Location    | Specific location within North Dakota (e.g., State, County names) | Text/String |
+| TimeFrame   | Year or time frame covered in the dataset | Date/Year |
+| DataFormat  | Format of the data (e.g., Currency) | Text/String |
+| Data        | Numerical data representing the unemployment rate | Numeric (Float/Decimal) |
+
+#### Median Household Income - North Dakota Dataset
+
+| Column Name | Description                | Data Type |
+|-------------|----------------------------|-----------|
+| LocationType| Type of geographical location (e.g., State, County) | Text/String |
+| Location    | Specific location within North Dakota (e.g., State, County names) | Text/String |
+| TimeFrame   | Year or time frame covered in the dataset | Date/Year |
+| DataFormat  | Format of the data (e.g., Percentage) | Text/String |
+| Data        | Numerical data representing the income | Numeric (Integer/Float/Decimal) |
 
 
 ## Code Snippets and Attribution
